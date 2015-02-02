@@ -21,6 +21,11 @@ on authors opinion.
 Free Emdedded electronics
 =========================
 * Raspberry Pi http://www.raspberrypi.org/
+* CubieBoard http://cubieboard.org/
+* Sheevaplug [dead?]
+* BenNanoNote [dead?]
+* GuruPlug [dead?]
+* DreamPlug http://www.globalscaletechnologies.com/c-5-dreamplugs.aspx
 
 Free PC Hardware / Laptops
 ==========================
@@ -36,8 +41,8 @@ Free OS for Desktop/Laptop and Server
 ==========================
 * GNU/Linux http://www.linuxfoundation.org/
 * * GNU/Linux Debian https://www.debian.org/
-* FreeBSD
-* * DragonFlyBSD
+* FreeBSD https://www.freebsd.org
+* * DragonFlyBSD http://www.dragonflybsd.org/
 
 Free Mobile phone / OS
 ======================
@@ -63,8 +68,8 @@ Free NVIDIA Drivers
 
 Free Browsers
 =============
-* Chromium
-* Mozilla Firefox
+* Mozilla Firefox https://www.mozilla.org
+* Chromium https://www.chromium.org/
 
 Free 3D printer
 ===============
@@ -73,5 +78,4 @@ Free 3D printer
 Free Office Package (to replace Microsoft Office)
 =================================================
 * Libre Office https://www.libreoffice.org/
-
 
