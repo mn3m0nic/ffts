@@ -1,21 +1,26 @@
 # ffts
-Free Full Technological Stack
-=============================
+Free Full Technological Stack (ffts)
+====================================
 
 v0.00 [draft mode]
 
 This is simple list of free technologies that anyone can use.
-Purporse of this project is - to find first complete usable
-and comlete stack of free solutions for every device in your
-home and work.
+Purporse of this project is to find complete usable and 
+full stack of free technological solutions for every device 
+in your home, work and every part of live in modern world.
+
+WARNING!
+
 It's NOT complete list of all Open Source, Free Software and
-Open Hardware.
-It's only some of them which are compatible and easy to use.
+Open Hardware solutions.
+It's only some of them which are compatible and easy to use
+on authors opinion.
+
 
 
 Free Emdedded electronics
 =========================
-* Raspberry Pi
+* Raspberry Pi http://www.raspberrypi.org/
 
 Free PC Hardware / Laptops
 ==========================
@@ -34,13 +39,14 @@ Free OS for Desktop/Laptop and Server
 
 Free Mobile phone OS
 ====================
-* Tizen
+* Tizen https://www.tizen.org
 * OpenMoko
 * Ubuntu Phone
 
 Free BIOS
 =========
 * CoreBoot
+* SeaBIOS
 
 Free Routers Firmware
 =====================
