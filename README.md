@@ -25,6 +25,7 @@ Free PC Hardware / Laptops
 Free strong encryption software
 ===============================
 * GNUPG https://www.gnupg.org/
+* LUKS https://code.google.com/p/cryptsetup/
 
 Free OS for Desktop/Laptop and Server
 ==========================
@@ -46,7 +47,6 @@ Free Routers Firmware
 * OpenWRT
 * NetBSD
 * OpenBSD
-
 
 Free NVIDIA Drivers
 ===================
