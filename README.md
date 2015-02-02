@@ -1,4 +1,3 @@
-# ffts
 Free Full Technological Stack (ffts)
 ====================================
 
@@ -9,7 +8,7 @@ Purporse of this project is to find complete usable and
 full stack of free technological solutions for every device 
 in your home, work and every part of live in modern world.
 
-WARNING!
+# WARNING!
 
 It's NOT complete list of all Open Source, Free Software and
 Open Hardware solutions.
