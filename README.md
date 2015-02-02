@@ -34,34 +34,44 @@ Free strong encryption software
 
 Free OS for Desktop/Laptop and Server
 ==========================
-* GNU/Linux
-* DragonflyBSD / FreeBSD
+* GNU/Linux http://www.linuxfoundation.org/
+* * GNU/Linux Debian https://www.debian.org/
+* FreeBSD
+* * DragonFlyBSD
 
-Free Mobile phone OS
-====================
+Free Mobile phone / OS
+======================
 * Tizen https://www.tizen.org
-* OpenMoko
-* Ubuntu Phone
+* OpenMoko http://wiki.openmoko.org/wiki/Main_Page
+* Ubuntu Phone http://www.ubuntu.com/phone
+* Maemo [dead?]
 
 Free BIOS
 =========
-* CoreBoot
-* SeaBIOS
+* CoreBoot http://www.coreboot.org/
+* SeaBIOS http://www.seabios.org/SeaBIOS
 
-Free Routers Firmware
-=====================
-* OpenWRT
-* NetBSD
-* OpenBSD
+Free Routers OS/Firmware
+========================
+* OpenWRT https://openwrt.org/
+* NetBSD http://www.netbsd.org/
+* OpenBSD http://www.openbsd.org/
 
 Free NVIDIA Drivers
 ===================
-* Nouveau
+* Nouveau http://nouveau.freedesktop.org/wiki/
 
 Free Browsers
 =============
 * Chromium
 * Mozilla Firefox
 
+Free 3D printer
+===============
+* RepRap http://reprap.org/
+
+Free Office Package (to replace Microsoft Office)
+=================================================
+* Libre Office https://www.libreoffice.org/
 
 
