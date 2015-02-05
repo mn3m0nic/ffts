@@ -1,7 +1,7 @@
 Free Full Technological Stack (ffts)
 ====================================
 
-v0.00 [draft] mode]
+v0.01 [draft mode]
 
 This is simple list of free technologies that anyone can use.
 Purporse of this project is to find complete usable and 
