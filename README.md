@@ -1,7 +1,7 @@
 Free Full Technological Stack (ffts)
 ====================================
 
-v0.00 [draft mode]
+v0.00 [draft] mode]
 
 This is simple list of free technologies that anyone can use.
 Purporse of this project is to find complete usable and 
@@ -20,61 +20,75 @@ on authors opinion.
 Free Emdedded electronics
 =========================
 * [Raspberry Pi](http://www.raspberrypi.org/)
-* CubieBoard http://cubieboard.org/
-* Sheevaplug [dead?]
-* BenNanoNote [dead?]
-* GuruPlug [dead?]
-* DreamPlug http://www.globalscaletechnologies.com/c-5-dreamplugs.aspx
+* [CubieBoard](http://cubieboard.org/)
+* [Sheevaplug](http://en.wikipedia.org/wiki/SheevaPlug)
+* [BenNanoNote](http://en.qi-hardware.com/wiki/Ben_NanoNote)
+* [GuruPlug](http://en.wikipedia.org/wiki/GuruPlug)
+* [DreamPlug](http://www.globalscaletechnologies.com/c-5-dreamplugs.aspx)
 
 Free PC Hardware / Laptops
 ==========================
-* FSF list http://www.fsf.org/resources/hw/endorsement/respects-your-freedom
-* IBM/Lenovo Thinkpad some series
+* [FSF Hardware list](http://www.fsf.org/resources/hw/endorsement/respects-your-freedom)
+* IBM/Lenovo Thinkpad some series.
+* Some other hardware ...
 
 Free strong encryption software
 ===============================
-* GNUPG https://www.gnupg.org/
-* LUKS https://code.google.com/p/cryptsetup/
+* [GNUPG](https://www.gnupg.org/)
+* [LUKS](https://code.google.com/p/cryptsetup/)
 
 Free OS for Desktop/Laptop and Server
 ==========================
-* GNU/Linux http://www.linuxfoundation.org/
-* * GNU/Linux Debian https://www.debian.org/
-* FreeBSD https://www.freebsd.org
-* * DragonFlyBSD http://www.dragonflybsd.org/
+* [GNU/Linux](http://www.linuxfoundation.org/) in general
+* [GNU/Linux Debian](https://www.debian.org/) for example
+* [FreeBSD](https://www.freebsd.org) in general
+* [DragonFlyBSD](http://www.dragonflybsd.org/) for example
 
 Free Mobile phone / OS
 ======================
-* Tizen https://www.tizen.org
-* OpenMoko http://wiki.openmoko.org/wiki/Main_Page
-* Ubuntu Phone http://www.ubuntu.com/phone
-* Maemo [dead?]
+* [Tizen](https://www.tizen.org)
+* [OpenMoko](http://wiki.openmoko.org/wiki/Main_Page)
+* [Ubuntu Phone](http://www.ubuntu.com/phone)
+* [Maemo](http://maemo.org/)
 
 Free BIOS
 =========
-* CoreBoot http://www.coreboot.org/
-* SeaBIOS http://www.seabios.org/SeaBIOS
+* [CoreBoot](http://www.coreboot.org/)
+* [SeaBIOS](http://www.seabios.org/SeaBIOS)
 
 Free Routers OS/Firmware
 ========================
-* OpenWRT https://openwrt.org/
-* NetBSD http://www.netbsd.org/
-* OpenBSD http://www.openbsd.org/
+* [OpenWRT](https://openwrt.org/)
+* [NetBSD](http://www.netbsd.org/)
+* [OpenBSD](http://www.openbsd.org/)
 
 Free NVIDIA Drivers
 ===================
-* Nouveau http://nouveau.freedesktop.org/wiki/
+* [Nouveau](http://nouveau.freedesktop.org/wiki/)
 
 Free Browsers
 =============
-* Mozilla Firefox https://www.mozilla.org
-* Chromium https://www.chromium.org/
+* [Mozilla Firefox](https://www.mozilla.org)
+* [Chromium](https://www.chromium.org/)
 
 Free 3D printer
 ===============
-* RepRap http://reprap.org/
+* [RepRap](http://reprap.org/)
 
 Free Office Package (to replace Microsoft Office)
 =================================================
-* Libre Office https://www.libreoffice.org/
+* [Libre Office] (https://www.libreoffice.org/)
+
+
+Replace Skype, Link, Vkontakte and other non-free IM
+====================================================
+* [Ekiga](http://www.ekiga.org/)
+* [Twinkle](http://mfnboer.home.xs4all.nl/twinkle/index.html))
+* Coccinella
+* QuteCom
+* SIP-Communicator
+* Mingle 
+* openMSRP
+* [tox](https://tox.im)
+
 
