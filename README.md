@@ -80,15 +80,16 @@ Free Office Package (to replace Microsoft Office)
 * [Libre Office] (https://www.libreoffice.org/)
 
 
-Replace Skype, Link, Vkontakte and other non-free IM
-====================================================
+Instant messaging clients (Replace Skype, Link, Vkontakte and other non-free IM)
+================================================================================
 * [Ekiga](http://www.ekiga.org/)
 * [Twinkle](http://mfnboer.home.xs4all.nl/twinkle/index.html))
-* Coccinella
-* QuteCom
-* SIP-Communicator
-* Mingle 
-* openMSRP
+* [Coccinella](http://thecoccinella.org/)
+* [QuteCom](http://qutecom.org/)
+* [SIP-Communicator](https://jitsi.org/) or JITSI
+* [Empathy](https://wiki.gnome.org/action/show/Apps/Empathy)
+* [Psi](http://psi-plus.com/) or Psi-plus
+* [Pidgin](https://www.pidgin.im/)
 * [tox](https://tox.im)
 
 
