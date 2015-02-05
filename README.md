@@ -19,7 +19,7 @@ on authors opinion.
 
 Free Emdedded electronics
 =========================
-* Raspberry Pi http://www.raspberrypi.org/
+* [Raspberry Pi](http://www.raspberrypi.org/)
 * CubieBoard http://cubieboard.org/
 * Sheevaplug [dead?]
 * BenNanoNote [dead?]
