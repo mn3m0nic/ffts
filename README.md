@@ -83,12 +83,12 @@ Free Office Package (to replace Microsoft Office)
 Instant messaging clients (Replace Skype, Link, Vkontakte and other non-free IM)
 ================================================================================
 * [Ekiga](http://www.ekiga.org/)
-* [Twinkle](http://mfnboer.home.xs4all.nl/twinkle/index.html))
+* [Twinkle](http://mfnboer.home.xs4all.nl/twinkle/index.html)
 * [Coccinella](http://thecoccinella.org/)
 * [QuteCom](http://qutecom.org/)
-* [SIP-Communicator](https://jitsi.org/) or JITSI
+* [SIP-Communicator](https://jitsi.org/) (or JITSI)
 * [Empathy](https://wiki.gnome.org/action/show/Apps/Empathy)
-* [Psi](http://psi-plus.com/) or Psi-plus
+* [Psi-plus](http://psi-plus.com/)
 * [Pidgin](https://www.pidgin.im/)
 * [tox](https://tox.im)
 
