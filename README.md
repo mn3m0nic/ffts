@@ -10,12 +10,12 @@ in your home, work and every part of live in modern world.
 
 # WARNING!
 
-It's NOT complete list of all Open Source, Free Software and
+- It's NOT complete list of all Open Source, Free Software and
 Open Hardware solutions.
-It's only some of them which are compatible and easy to use
+- It's only some of them which are compatible and easy to use
 on authors opinion.
 
-Generic work
+Architecture
 ============
 ![Shematics](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/FFTS_main.png "FFTS")
 ***
