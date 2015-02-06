@@ -1,5 +1,5 @@
-Free Full Technological Stack (ffts)
-====================================
+![Free Full Technological Stack](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/FFTS_main.png "FFTS")
+***
 
 v0.01 [draft mode]
 
