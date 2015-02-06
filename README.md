@@ -1,4 +1,4 @@
-![Free Full Technological Stack](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/FFTS_main.png "FFTS")
+![Free Full Technological Stack](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/ffts_text.png)
 ***
 
 v0.01 [draft mode]
@@ -15,6 +15,10 @@ Open Hardware solutions.
 It's only some of them which are compatible and easy to use
 on authors opinion.
 
+Generic work
+============
+![Shematics](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/FFTS_main.png "FFTS")
+***
 
 
 Free Emdedded electronics
