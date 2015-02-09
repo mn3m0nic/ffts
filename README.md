@@ -52,7 +52,7 @@ Free Mobile phone / OS
 ======================
 * [Tizen](https://www.tizen.org)
 * [LuneOS](http://www.webos-ports.org/)
-* [OpenMoko](http://wiki.openmoko.org/wiki/Main_Page)
+* [OpenMoko Linux](http://wiki.openmoko.org/wiki/Main_Page) [2](http://en.wikipedia.org/wiki/Openmoko_Linux)
 * [Ubuntu Phone](http://www.ubuntu.com/phone)
 * [Maemo](http://maemo.org/)
 
