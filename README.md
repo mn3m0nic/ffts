@@ -1,6 +1,9 @@
 ![Free Full Technological Stack](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/ffts_text.png)
 ***
 
+Free full technological stack
+=============================
+
 v0.01 [draft mode]
 
 This is simple list of free technologies that anyone can use.
@@ -14,12 +17,6 @@ in your home, work and every part of live in modern world.
 Open Hardware solutions.
 - It's only some of them which are compatible and easy to use
 on authors opinion.
-
-Architecture
-============
-![Shematics](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/FFTS_main.png "FFTS")
-***
-
 
 Free Emdedded electronics
 =========================
@@ -106,6 +103,7 @@ Graphical 2D raster editing software
 Graphical vector editing software
 =================================
 * [Inkscape](https://inkscape.org/)
+* [Scribus](http://scribus.net/)
 
 Graphical 3D editing software
 =============================
