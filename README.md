@@ -103,6 +103,10 @@ Graphical 2D raster editing software
 * [GIMP](http://www.gimp.org/)
 * [GPaint](https://www.gnu.org/software/gpaint/)
 
+Graphical vector editing software
+=================================
+* [Inkscape](https://inkscape.org/)
+
 Graphical 3D editing software
 =============================
 * [Blender](http://www.blender.org/)
