@@ -18,6 +18,14 @@ Open Hardware solutions.
 - It's only some of them which are compatible and easy to use
 on authors opinion.
 
+
+
+Workflow
+========
+![Shematics](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/FFTS_main.png "FFTS")
+***
+
+
 Free Emdedded electronics
 =========================
 * [Raspberry Pi](http://www.raspberrypi.org/)
