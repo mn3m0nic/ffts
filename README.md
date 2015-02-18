@@ -75,6 +75,8 @@ Free Routers OS/Firmware
 Free NVIDIA Drivers
 ===================
 * [Nouveau](http://nouveau.freedesktop.org/wiki/)
+* [BumBleBee](http://bumblebee-project.org/)
+
 
 Free Browsers
 =============
