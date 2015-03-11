@@ -113,7 +113,17 @@ Graphical 2D raster editing software
 Graphical vector editing software
 =================================
 * [Inkscape](https://inkscape.org/)
+* [Libre Office Draw](http://www.libreoffice.org/discover/draw/)
+
+Programs for typesetting
+========================
 * [Scribus](http://scribus.net/)
+
+Document markup software with LaTeX-syntax
+==========================================
+* [LaTeX Official site](http://latex-project.org/)
+* [TexMaker](http://www.xm1math.net/texmaker/)
+* [TexStudio](http://sourceforge.net/projects/texstudio/)
 
 Graphical 3D editing software
 =============================
