@@ -114,6 +114,8 @@ Graphical vector editing software
 =================================
 * [Inkscape](https://inkscape.org/)
 * [Libre Office Draw](http://www.libreoffice.org/discover/draw/)
+* [Ipe](http://ipe7.sourceforge.net/)
+
 
 Programs for typesetting
 ========================
