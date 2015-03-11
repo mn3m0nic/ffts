@@ -122,6 +122,9 @@ UML/Schematics/alg vector modeling software
 * [Dia](http://sourceforge.net/projects/dia-installer/)
 * [Libre Office Draw](http://www.libreoffice.org/discover/draw/)
 * [Kivio](http://www.koffice.org/kivio/)
+* [Caligra Flow](https://www.calligra.org/flow/)
+* [StarUML](http://sourceforge.net/projects/staruml/)
+
 
 Programs for typesetting
 ========================
