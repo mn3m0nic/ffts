@@ -117,6 +117,11 @@ Graphical vector editing software
 * [Ipe](http://ipe7.sourceforge.net/)
 * [Xfig](http://www.xfig.org/)
 
+UML/Schematics/alg vector modeling software
+===========================================
+* [Dia](http://sourceforge.net/projects/dia-installer/)
+* [Libre Office Draw](http://www.libreoffice.org/discover/draw/)
+* [Kivio](http://www.koffice.org/kivio/)
 
 Programs for typesetting
 ========================
