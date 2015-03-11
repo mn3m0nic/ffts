@@ -119,6 +119,7 @@ Graphical vector editing software
 
 UML/Schematics/alg vector modeling software
 ===========================================
+* [Umbrello UML Modeller](http://sourceforge.net/projects/uml/)
 * [Dia](http://sourceforge.net/projects/dia-installer/)
 * [Libre Office Draw](http://www.libreoffice.org/discover/draw/)
 * [Kivio](http://www.koffice.org/kivio/)
