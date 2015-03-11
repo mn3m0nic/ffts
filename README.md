@@ -104,7 +104,7 @@ Instant messaging clients (Replace Skype, Link, Vkontakte and other non-free IM)
 * [Pidgin](https://www.pidgin.im/)
 * [tox](https://tox.im)
 
-Graphical 2D raster editing software
+Graphical 2D bitmap editing software
 ====================================
 * [Krita](https://krita.org/)
 * [GIMP](http://www.gimp.org/)
