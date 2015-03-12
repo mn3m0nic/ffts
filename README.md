@@ -4,8 +4,6 @@
 Free full technological stack
 =============================
 
-v0.01 [draft mode]
-
 This is simple list of free technologies that anyone can use.
 Purporse of this project is to find complete usable and 
 full stack of free technological solutions for every device 
