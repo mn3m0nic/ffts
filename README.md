@@ -26,8 +26,8 @@ Workflow
 ***
 
 
-Free Emdedded electronics
-=========================
+Emdedded electronics for personal usage
+=======================================
 * [Raspberry Pi](http://www.raspberrypi.org/)
 * [CubieBoard](http://cubieboard.org/)
 * [Sheevaplug](http://en.wikipedia.org/wiki/SheevaPlug)
@@ -35,60 +35,59 @@ Free Emdedded electronics
 * [GuruPlug](http://en.wikipedia.org/wiki/GuruPlug)
 * [DreamPlug](http://www.globalscaletechnologies.com/c-5-dreamplugs.aspx)
 
-Free PC Hardware / Laptops
-==========================
+PC Hardware / Laptops
+=====================
 * [FSF Hardware list](http://www.fsf.org/resources/hw/endorsement/respects-your-freedom)
 * IBM/Lenovo Thinkpad some series.
-* Some other hardware ...
 
-Free strong encryption software
-===============================
-* [GNUPG](https://www.gnupg.org/)
-* [LUKS](https://code.google.com/p/cryptsetup/)
+BIOS
+====
+* [CoreBoot](http://www.coreboot.org/)
+* [SeaBIOS](http://www.seabios.org/SeaBIOS)
 
-Free OS for Desktop/Laptop and Server
-==========================
+OS for Desktop/Laptop and Server
+================================
 * [GNU/Linux](http://www.linuxfoundation.org/) in general
-* [GNU/Linux Debian](https://www.debian.org/) for example
+* [GNU/Linux Debian](https://www.debian.org/)
 * [FreeBSD](https://www.freebsd.org) in general
 * [DragonFlyBSD](http://www.dragonflybsd.org/) for example
 
-Free Mobile phone / OS
-======================
+OS for mobile phone
+===================
 * [Tizen](https://www.tizen.org)
 * [LuneOS](http://www.webos-ports.org/)
 * [OpenMoko Linux](http://wiki.openmoko.org/wiki/Main_Page) [2](http://en.wikipedia.org/wiki/Openmoko_Linux)
 * [Ubuntu Phone](http://www.ubuntu.com/phone)
 * [Maemo](http://maemo.org/)
 
-Free BIOS
-=========
-* [CoreBoot](http://www.coreboot.org/)
-* [SeaBIOS](http://www.seabios.org/SeaBIOS)
-
-Free Routers OS/Firmware
-========================
+OS for routers
+==============
 * [OpenWRT](https://openwrt.org/)
 * [NetBSD](http://www.netbsd.org/)
 * [OpenBSD](http://www.openbsd.org/)
 
-Free NVIDIA Drivers
-===================
+Strong encryption software for messaging and block devices
+==========================================================
+* [GNUPG](https://www.gnupg.org/)
+* [LUKS](https://code.google.com/p/cryptsetup/)
+
+NVIDIA Drivers
+==============
 * [Nouveau](http://nouveau.freedesktop.org/wiki/)
 * [BumBleBee](http://bumblebee-project.org/)
 
-
-Free Browsers
+Browsers
 =============
 * [Mozilla Firefox](https://www.mozilla.org)
 * [Chromium](https://www.chromium.org/)
+* [Konqueror](https://konqueror.org/)
 
-Free 3D printer
-===============
+3D printer
+==========
 * [RepRap](http://reprap.org/)
 
-Free Office Package (to replace Microsoft Office)
-=================================================
+(Office)Software for word processing, spreadsheets, slideshows, diagrams and drawings
+=====================================================================================
 * [Libre Office] (https://www.libreoffice.org/)
 
 
@@ -126,7 +125,6 @@ UML/Schematics/alg vector modeling software
 * [Caligra Flow](https://www.calligra.org/flow/)
 * [StarUML](http://sourceforge.net/projects/staruml/)
 
-
 Programs for typesetting
 ========================
 * [Scribus](http://scribus.net/)
@@ -140,3 +138,4 @@ Document markup software with LaTeX-syntax
 Graphical 3D editing software
 =============================
 * [Blender](http://www.blender.org/)
+
