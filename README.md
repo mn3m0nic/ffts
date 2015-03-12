@@ -77,7 +77,7 @@ NVIDIA Drivers
 * [BumBleBee](http://bumblebee-project.org/)
 
 Browsers
-=============
+========
 * [Mozilla Firefox](https://www.mozilla.org)
 * [Chromium](https://www.chromium.org/)
 * [Konqueror](https://konqueror.org/)
@@ -103,14 +103,14 @@ Instant messaging clients (Replace Skype, Link, Vkontakte and other non-free IM)
 * [Pidgin](https://www.pidgin.im/)
 * [tox](https://tox.im)
 
-Graphical 2D bitmap editing software
-====================================
+Graphical 2D bitmap editing/drawing software
+=============================================
 * [Krita](https://krita.org/)
 * [GIMP](http://www.gimp.org/)
 * [GPaint](https://www.gnu.org/software/gpaint/)
 
-Graphical vector editing software
-=================================
+Graphical vector editing/drawing software
+==========================================
 * [Inkscape](https://inkscape.org/)
 * [Libre Office Draw](http://www.libreoffice.org/discover/draw/)
 * [Ipe](http://ipe7.sourceforge.net/)
