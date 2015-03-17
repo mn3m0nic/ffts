@@ -76,6 +76,7 @@ NVIDIA Drivers
 
 Browsers
 ========
+* [NetSurf](http://www.netsurf-browser.org/)
 * [Mozilla Firefox](https://www.mozilla.org)
 * [Chromium](https://www.chromium.org/)
 * [Konqueror](https://konqueror.org/)
