@@ -52,6 +52,7 @@ OS for Desktop/Laptop and Server
 
 OS for mobile phone
 ===================
+* [Jolla's Sailfish OS](https://sailfishos.org/)
 * [Tizen](https://www.tizen.org)
 * [LuneOS](http://www.webos-ports.org/)
 * [OpenMoko Linux](http://wiki.openmoko.org/wiki/Main_Page) [2](http://en.wikipedia.org/wiki/Openmoko_Linux)
