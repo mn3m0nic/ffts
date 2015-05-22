@@ -38,6 +38,11 @@ PC Hardware / Laptops
 * [FSF Hardware list](http://www.fsf.org/resources/hw/endorsement/respects-your-freedom)
 * IBM/Lenovo Thinkpad some series.
 
+Hardware / Mobile phones
+========================
+* [Neo900](http://neo900.org/) (2015)
+* [Neo_FreeRunner](http://wiki.openmoko.org/wiki/Neo_FreeRunner) (old)
+
 BIOS
 ====
 * [CoreBoot](http://www.coreboot.org/)
