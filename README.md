@@ -15,12 +15,19 @@ Open Hardware solutions.
 - It's only some of them which are compatible and easy to use
 on authors opinion.
 
+Why?
+====
+* I want to minimize time searching compatible hardware & software with Free Software
+* I want work with same Debian-look software with laptop, media center, home server and mobile phone
 
 
-Workflow
-========
+Workflow for some support level
+===============================
 ![Shematics](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/FFTS_main.png "FFTS")
 ***
+
+* Join to support FFTS
+* Send your bug reports to work with your issues jointly.
 
 
 Emdedded electronics for personal usage
