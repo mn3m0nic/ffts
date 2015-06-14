@@ -34,8 +34,8 @@ BUGS
 * Screen turns black in 10 min regardless of screensaver configs [CONFIRMED BUG](https://labs.riseup.net/code/issues/5617)
 * USB port contunue working with power after turn off
 
-whiches
-=======
+Wanted
+======
 * There are no CPU termperature hardware shutdown limits present. It's not good.
 
 
