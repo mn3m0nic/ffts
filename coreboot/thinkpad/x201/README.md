@@ -13,7 +13,7 @@ Working and tested
 * Ethernet 1000Mbit
 * WIFI
 * ACPI
-* Volume hotkeys
+* Volume/Light hotkeys
 * Dokstation
   * CD/DVD-R
   * USB
