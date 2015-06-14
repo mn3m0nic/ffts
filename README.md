@@ -1,12 +1,6 @@
 ![Free Full Technological Stack](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/ffts_text.png)
 ***
 
-┏━┛┏━┃┏━┛┏━┛  ┏━┛┃ ┃┃  ┃    ━┏┛┏━┛┏━┛┃ ┃┏━ ┏━┃┃  ┏━┃┏━┛┛┏━┛┏━┃┃    ┏━┛━┏┛┏━┃┏━┛┃ ┃
-┏━┛┏┏┛┏━┛┏━┛  ┏━┛┃ ┃┃  ┃     ┃ ┏━┛┃  ┏━┃┃ ┃┃ ┃┃  ┃ ┃┃ ┃┃┃  ┏━┃┃    ━━┃ ┃ ┏━┃┃  ┏┛ 
-┛  ┛ ┛━━┛━━┛  ┛  ━━┛━━┛━━┛   ┛ ━━┛━━┛┛ ┛┛ ┛━━┛━━┛━━┛━━┛┛━━┛┛ ┛━━┛  ━━┛ ┛ ┛ ┛━━┛┛ ┛
-
-
-
 About
 =====
 This is simple list of free technologies that anyone can use.
