@@ -1,9 +1,14 @@
 ![Free Full Technological Stack](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/ffts_text.png)
 ***
 
-Ｆｒｅｅ  Ｆｕｌｌ  Ｔｅｃｈｎｏｌｏｇｉｃａｌ  Ｓｔａｃｋ
-==========================================================
+┏━┛┏━┃┏━┛┏━┛  ┏━┛┃ ┃┃  ┃    ━┏┛┏━┛┏━┛┃ ┃┏━ ┏━┃┃  ┏━┃┏━┛┛┏━┛┏━┃┃    ┏━┛━┏┛┏━┃┏━┛┃ ┃
+┏━┛┏┏┛┏━┛┏━┛  ┏━┛┃ ┃┃  ┃     ┃ ┏━┛┃  ┏━┃┃ ┃┃ ┃┃  ┃ ┃┃ ┃┃┃  ┏━┃┃    ━━┃ ┃ ┏━┃┃  ┏┛ 
+┛  ┛ ┛━━┛━━┛  ┛  ━━┛━━┛━━┛   ┛ ━━┛━━┛┛ ┛┛ ┛━━┛━━┛━━┛━━┛┛━━┛┛ ┛━━┛  ━━┛ ┛ ┛ ┛━━┛┛ ┛
 
+
+
+About
+=====
 This is simple list of free technologies that anyone can use.
 Purporse of this project is to find complete usable and 
 full stack of free technological solutions for every device 
