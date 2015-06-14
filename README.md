@@ -52,7 +52,7 @@ Hardware / Mobile phones
 
 BIOS
 ====
-* [CoreBoot](http://www.coreboot.org/)
+* [CoreBoot](https://github.com/mn3m0nic/ffts/blob/master/coreboot.md)
 * [SeaBIOS](http://www.seabios.org/SeaBIOS)
 
 OS for Desktop/Laptop and Server
