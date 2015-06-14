@@ -41,19 +41,21 @@ Emdedded electronics for personal usage
 
 PC Hardware / Laptops
 =====================
+* [IBM/LENOVO Thinkpad](https://github.com/mn3m0nic/ffts/blob/master/thinkpad.md)
 * [FSF Hardware list](http://www.fsf.org/resources/hw/endorsement/respects-your-freedom)
-* IBM/Lenovo Thinkpad some series.
-* [IBM/LENOVO Thinkpad x201](https://github.com/mn3m0nic/ffts/blob/master/thinkpad.md)
 
 Hardware / Mobile phones
 ========================
 * [Neo900](http://neo900.org/) (2015)
 * [Neo_FreeRunner](http://wiki.openmoko.org/wiki/Neo_FreeRunner) (old)
 
-BIOS
-====
+Free BIOS firmware
+==================
 * [CoreBoot](https://github.com/mn3m0nic/ffts/blob/master/coreboot.md)
-* [SeaBIOS](http://www.seabios.org/SeaBIOS)
+* [LibreBoot](http://www.libreboot.org/) (free from blobs Coreboot fork)
+* [SeaBIOS](http://www.seabios.org/SeaBIOS) (used as payload in Coreboot or in QEMU)
+* [TianoCore](http://www.tianocore.org/) (UEFI)
+* [OpenBIOS](http://www.openfirmware.info/Welcome_to_OpenBIOS)
 
 OS for Desktop/Laptop and Server
 ================================
