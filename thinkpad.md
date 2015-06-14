@@ -2,7 +2,14 @@
 Thinkpad
 ========
 
+IBM/LENOVO Thinkpad - old and very popular laptop series.
+
 * [Wiki about this laptops](http://www.thinkwiki.org/wiki/ThinkWiki)
+
+
+x201
+====
+
 * [Flashing Coreboot to x201(official)](http://www.coreboot.org/Board:lenovo/x201)
   * used flashrom/generic
 * [Flashing Coreboot to x201(my)](https://github.com/mn3m0nic/ffts/tree/master/coreboot/thinkpad/x201)
