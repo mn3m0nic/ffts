@@ -60,9 +60,10 @@ Free BIOS firmware
 OS for Desktop/Laptop and Server
 ================================
 * [GNU/Linux](http://www.linuxfoundation.org/) in general
-* [GNU/Linux Debian](https://www.debian.org/)
+  * [GNU/Linux Debian](https://www.debian.org/)
+  * [CentOS](http://centos.org/)
 * [FreeBSD](https://www.freebsd.org) in general
-* [DragonFlyBSD](http://www.dragonflybsd.org/) for example
+  * [DragonFlyBSD](http://www.dragonflybsd.org/) for example
 
 OS for mobile phone
 ===================
@@ -153,3 +154,11 @@ Graphical 3D editing software
 =============================
 * [Blender](http://www.blender.org/)
 
+
+Automated administrative engine
+===============================
+
+* [Puppet](https://puppetlabs.com/)
+* [Chef](https://www.chef.io/)
+* [Ansible](http://www.ansible.com/)
+* [Salt](https://github.com/saltstack/salt)
