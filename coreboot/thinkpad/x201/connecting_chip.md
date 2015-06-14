@@ -39,4 +39,4 @@ MX25L6445E
 * Check #WP. It's must NOT connect to GND
 * Connect all GND wires 
 
-
+* [Full datasheet](https://github.com/mn3m0nic/ffts/blob/master/coreboot/thinkpad/x201/MX25L6445E_DSA00503796.pdf)
