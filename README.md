@@ -1,8 +1,8 @@
 ![Free Full Technological Stack](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/ffts_text.png)
 ***
 
-Free full technological stack
-=============================
+Ｆｒｅｅ  Ｆｕｌｌ  Ｔｅｃｈｎｏｌｏｇｉｃａｌ  Ｓｔａｃｋ
+==========================================================
 
 This is simple list of free technologies that anyone can use.
 Purporse of this project is to find complete usable and 
@@ -37,6 +37,7 @@ PC Hardware / Laptops
 =====================
 * [FSF Hardware list](http://www.fsf.org/resources/hw/endorsement/respects-your-freedom)
 * IBM/Lenovo Thinkpad some series.
+* [IBM/LENOVO Thinkpad x201](https://github.com/mn3m0nic/ffts/blob/master/thinkpad.md)
 
 Hardware / Mobile phones
 ========================
