@@ -6,6 +6,7 @@ report installing Coreboot on Thinkpad x201
 
 Working and tested
 ==================
+* CPU i5 4 core, VT-x, AES - ok
 * 4+4GB RAM
 * USB
 * VGA-DSUB
@@ -14,10 +15,11 @@ Working and tested
 * WIFI
 * ACPI
 * Volume/Light hotkeys
+* trackpad
 * Dokstation
   * CD/DVD-R
   * USB
-  * DP interface
+  * DP/HDMI out
 
 Not tested
 ==========
