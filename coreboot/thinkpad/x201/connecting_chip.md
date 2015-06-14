@@ -1,4 +1,9 @@
-===========================================================
+
+Connecting to chip on mainboard 
+===============================
+
+MX25L6445E
+==========
 
                 (display)
 
@@ -28,5 +33,10 @@
 8  3.3 VCC (external)
 
 
+#WARNING
 
-===========================================================
+* Do not forget connect external power supply to 3.3VCC and control voltage
+* Check #WP. It's must NOT connect to GND
+* Connect all GND wires 
+
+
