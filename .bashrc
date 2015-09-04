@@ -1,12 +1,3 @@
-###  Directory navigation
-function md ()
-{
-        mkdir -p "$@" 
-        #eval cd "\"\$$#\""
-        cd "$@"
-        #ls -lah 
-}
-
 
 ### Git 
 ### http://habrahabr.ru/post/28268/
