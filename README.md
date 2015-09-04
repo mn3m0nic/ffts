@@ -60,7 +60,10 @@ Free BIOS firmware
 OS for Desktop/Laptop and Server
 ================================
 * [GNU/Linux](http://www.linuxfoundation.org/) in general
-  * [GNU/Linux Debian](https://www.debian.org/)
+  * [Devuan](http://devuan.org/) (Debian fork without systemD)
+  * [Debian](https://www.debian.org/)
+  * [Ubuntu](http://www.ubuntu.com/)
+  * [Gentoo](https://www.gentoo.org/)
   * [CentOS](http://centos.org/)
 * [FreeBSD](https://www.freebsd.org) in general
   * [DragonFlyBSD](http://www.dragonflybsd.org/) for example
