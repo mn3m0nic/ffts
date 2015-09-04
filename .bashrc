@@ -77,3 +77,17 @@ complete -o default -o nospace -F _jump jump
 
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+
+
+### lsblk
+alias lsblk-full="sudo lsblk -o NAME,MAJ:MIN,RM,SIZE,TYPE,FSTYPE,MOUNTPOINT,UUID"
+
+
+### editor
+export EDITOR=vim
+
+
+### screencasting
+
+alias record_scren_10s="byzanz-record -v -x 2 -y 1138 -w 1276 -h 760 -d 10 vid/private/$(date +"%Y%m%d_%H%M%S").gif"
