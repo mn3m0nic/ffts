@@ -31,6 +31,7 @@ with outputing result of work to files in some $OUT dir.
 
 Example:
 =======
+```
 $./justrun-standalone aaa bbb ccc ddd eee ffffff ggg ssss 000 2222
 $tree
 ├── out
@@ -45,17 +46,21 @@ $tree
 │   ├── run_ggg_at_20160113185409.txt
 │   └── run_ssss_at_20160113185409.txt
 └── run
+```
 
-
-How to use it:
- 0. mv ./justrun-standalone to ./some_usefull_script_to_parse_logs (for example)
- 1. replace fork_body() function body with simple plain shell code 
-    NOTE: function recieve ONLY 1 parameter
+How to start use it
+===================
+ 0. Rename ./justrun-standalone to ./some_usefull_script_to_parse_logs (for example)
+ 1. Replace fork_body() function body with YOUR shell code
+    NOTE: function recieve must ONLY 1 parameter (for now)
  2. test it like:
+
     ./some_usefull_script_to_parse_logs server1 server2 server3
 
     in dir out/ you should see results of work 
 
+TODO
+====
  TODO: add exit code support
 
 
@@ -76,6 +81,7 @@ Installation
  2. Set env variable PATH_TO_LIB=~/.scripts/shell/justrun
  3. make this code in shell
 
+```
 source $PATH_TO_LIB/justrun-lib
 fork_body()
 {
@@ -83,6 +89,4 @@ fork_body()
 	# ...
 }
 main "$@"
-
-
-
+```
