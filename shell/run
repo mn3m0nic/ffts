@@ -1,5 +1,7 @@
 #!/bin/bash
 # Simple parallel BASH programming without any binary in solo 1 script
+# without needing to install any additional packages like GNU parallel
+# or GNU make
 # Authors: Nick Void https://github.com/mn3m0nic
 #
 # For testing just start:
