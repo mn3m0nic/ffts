@@ -1,0 +1,62 @@
+#!/bin/bash
+OUT=out
+CONC=8; 
+FORKKEY=FORKBEGIN
+DEBUG=1
+SHOW=1
+echod()
+{
+	if [ "$DEBUG" == "1" ]; then 
+		echo "$@" >&2
+	fi
+}
+check()
+{
+	if [ ! -d "$OUT" ]; then
+		mkdir -p $OUT
+	fi
+	MAX=$#
+	echod "Setting new MAX=$MAX"
+}
+show()
+{
+	if [ "$SHOW" == 1 ]; then
+		clear
+		ls -lah $OUT
+	fi
+	#jobs -l
+}
+run_forks()
+{
+	JCOUNT="1"
+	let CPID=0
+	while [ "$JCOUNT" -ne "0" ]; do
+		if [ "$JCOUNT" -lt "$CONC" ]; then
+			let CPID=CPID+1
+			if [ "$CPID" -le "$MAX" ]; then
+				echod "JCOUNT=$JCOUNT < CONC=$CONC --> starting new task"
+				# Setting parameters of running process:
+				PARAMS="$1"
+				shift
+				# Running process
+				DATE=$(date +"%Y%m%d%H%M%S")
+				bash -c "$0 $FORKKEY $PARAMS" > $OUT"/"$0"_"$PARAMS"_at_"$DATE".txt" &
+			fi
+		fi
+		JCOUNT=`jobs -l | grep -v Done| wc -l`
+		show
+		echod "JCOUNT=$JCOUNT"
+		sleep .1
+	done
+	echo "All complete."
+}
+main()
+{
+	if [ "$1" == "$FORKKEY" ]; then
+		shift
+		fork_body "$@"
+	else
+		check "$@"
+		run_forks "$@"
+	fi
+}
