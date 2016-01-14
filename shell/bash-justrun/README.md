@@ -79,6 +79,7 @@ Installation
 
 ```
 source $PATH_TO_LIB/justrun-lib
+CONC=32
 fork_body()
 {
         # paste your working code here 
