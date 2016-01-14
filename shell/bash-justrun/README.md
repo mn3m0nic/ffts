@@ -16,6 +16,7 @@ All code provided without any waranty "AS IS" under GPL v2 license.
 
 Authors: Nick Void https://github.com/mn3m0nic in 2015-2016.
 
+
 Standalone version
 ==================
 
@@ -23,8 +24,9 @@ Standalone version
 
 Description:
 ============
-Current script ./justrun-standalone can be used for running some shell code in parallel
-with outputing result of work to files in some $OUT dir.
+Current script ./justrun-standalone can be used for running some shell code in parallel mode
+with outputing result of work to files in some $OUT dir and showing it to screen when results
+is recieved. Output files will be named by default as: Scriptname + Agument + "_at_" + date ".txt"
 
 Example:
 =======
@@ -76,8 +78,20 @@ Installation
 ============
 
  1. Download new copy of justrun-lib in ~/.scripts/shell/justrun directory
+
+```
+mkdir -p ~/.scripts/shell/justrun
+cd ~/.scripts/shell/justrun
+wget https://raw.githubusercontent.com/mn3m0nic/ffts/master/shell/bash-justrun/justrun-lib
+```
+
  2. Set env variable PATH_TO_LIB=~/.scripts/shell/justrun
- 3. make this code in shell
+
+```
+echo "export PATH_TO_LIB=~/.scripts/shell/justrun" >> ~/.bashrc
+```
+
+ 3. Now you can go to your working dir and create new script like in example:
 
 ```
 source $PATH_TO_LIB/justrun-lib
@@ -89,7 +103,7 @@ fork_body()
 }
 main "$@"
 ```
-And now you can run it as:
+You can run it as:
 
 ```
 cat list.txt | xargs ./justrun-with-lib
