@@ -89,4 +89,32 @@ fork_body()
 	# ...
 }
 main "$@"
+'``
+
+
+Testing script perfomance
+=========================
+
+Testing for random script that walks though >200 server via SSH and do 1 simple command on it
+(you may have different values, but this is just for example)
+
+With CONC=1 or just process 1 by 1
+
+```
+time cat list-all-servers.txt | xargs ./check-server 
+...(output removed)...
+real	6m26.286s
+user	0m41.972s
+sys	0m59.228s
+```
+
+And now we do the same but with CONC=32
+
+```
+Jobs running: 0
+All complete.
+
+real	0m17.060s
+user	0m32.280s
+sys	0m15.748s
 ```
