@@ -29,6 +29,10 @@ with outputing result of work to files in some $OUT dir and showing it to screen
 
 Example output:
 ==============
+
+![Testing](https://raw.githubusercontent.com/mn3m0nic/ffts/master/shell/bash-justrun/docs/example-with-random-sleep.gif)
+***
+
 ```
 $./justrun-standalone aaa bbb ccc ddd eee ffffff ggg ssss 000 2222
 $tree
