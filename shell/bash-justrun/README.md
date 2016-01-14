@@ -5,7 +5,7 @@ And main difference against other solution is:
   * It's simple to read and understand (If you know BASH of course :) )
   * There is no need to install any other binaries like GNU parallel or make;
   * It use buildin shell job control to start new process and watch them work;
-  * Library and your code can be separated or combinde in standalone 1 script;
+  * Library and your code can be simply combinded in standalone one solid script file or it can be used as separated parts (Library and YOUR code independed);
 
 
 Versions
