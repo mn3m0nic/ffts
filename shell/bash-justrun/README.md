@@ -1,28 +1,23 @@
 BASH-Justrun - is a simple almost pure BASH programming script library than can 
 add parallel working into your almost any working script.
 And main difference against other solution is:
+
+  * It's simple to read and understand (If you know BASH of course :) )
   * There is no need to install any other binaries like GNU parallel or make;
   * It use buildin shell job control to start new process and watch them work;
-  * It's simple to read;
   * Library and your code can be separated or combinde in standalone 1 script;
 
 
 Versions
 ========
 All code provided without any waranty "AS IS" under GPL v2 license.
+
 Authors: Nick Void https://github.com/mn3m0nic in 2015-2016.
 
 Standalone version
 ==================
 
   * justrun-standalone
-
-Files
-======
-
-  * justrun-lib 
-  * justrun-with-lib
-
 
 Description:
 ============
@@ -55,18 +50,19 @@ How to start use it
     NOTE: function recieve must ONLY 1 parameter (for now)
  2. test it like:
 
+```
     ./some_usefull_script_to_parse_logs server1 server2 server3
 
     in dir out/ you should see results of work 
+```
 
 TODO
 ====
- TODO: add exit code support
+TODO: add exit code support
 
 
 Using with a library
 ====================
-
 
 Files
 ======
