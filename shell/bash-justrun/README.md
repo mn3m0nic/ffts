@@ -20,7 +20,7 @@ Authors: Nick Void https://github.com/mn3m0nic in 2015-2016.
 Standalone version
 ==================
 
-  * (justrun-standalone)[https://github.com/mn3m0nic/ffts/blob/master/shell/bash-justrun/examples/example2-justrun-standalone.sh]
+  * [justrun-standalone](https://github.com/mn3m0nic/ffts/blob/master/shell/bash-justrun/examples/example2-justrun-standalone.sh)
 
 Description standalone version:
 ============
