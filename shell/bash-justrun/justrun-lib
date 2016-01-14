@@ -27,7 +27,9 @@ show()
 			grep -re ".*" out/ | sed -e 's|:|\t|'
 		fi
 		echo "Jobs running: $JCOUNT "
-		echo "In queue:     $# from $TOTALARGS"
+		let PERC=(JCOUNT+$#)*100/TOTALARGS
+		let PERC=100-PERC
+		echo "In queue:     $# from $TOTALARGS ($PERC %)" 
 	fi
 }
 run_forks()
