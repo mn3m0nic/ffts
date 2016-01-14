@@ -8,6 +8,9 @@ Purporse of this project is to find complete usable and
 full stack of free technological solutions for every device 
 in your home, work and every part of live in modern world.
 
+![Summary](https://raw.githubusercontent.com/mn3m0nic/ffts/master/img/summary.png "summary")
+***
+
 # WARNING!
 
 - It's NOT complete list of all Open Source, Free Software and
