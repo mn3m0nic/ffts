@@ -1,18 +1,18 @@
 BASH-Justrun - is a simple almost pure BASH programming script library than can 
-add parallel working into your almost any working script.
+add parallel command running into your script.
 
 Differences between others solutions are:
 
   * It's simple to read and understand (If you know BASH of course :) )
-  * There is no need to install any other binaries like GNU parallel or make;
-  * It use [buildin shell job control](http://www.tldp.org/LDP/abs/html/x9644.html) to start new processes in background and watch them work;
+  * There is no need to install any other binaries like [GNU parallel](http://www.gnu.org/software/parallel/) or [make](https://www.gnu.org/software/make/);
+  * Script library use [buildin shell job control](http://www.tldp.org/LDP/abs/html/x9644.html) to start new processes in background and watch how them work, count them and keeps everytime running CONC number of processes;
   * Library and your code can be simply combinded in standalone one solid script file or it can be used as separated parts (Library and YOUR code independed);
   * It can control how much processed running in same time using local CONC (concurrent) varilable; 
 
 
 Versions
 ========
-All code provided without any waranty "AS IS" under GPL v2 license.
+All code provided without any warranty "AS IS" under GPL v2 license.
 
 Authors: Nick Void https://github.com/mn3m0nic in 2015-2016.
 
@@ -22,14 +22,13 @@ Standalone version
 
   * justrun-standalone
 
-Description:
+Description standalone version:
 ============
-Current script ./justrun-standalone can be used for running some shell code in parallel mode
-with outputing result of work to files in some $OUT dir and showing it to screen when results
-is recieved. Output files will be named by default as: Scriptname + Agument + "_at_" + date ".txt"
+Current script ./justrun-standalone is just a simple example which can be used for running some shell code in parallel mode
+with outputing result of work to files in some $OUT dir and showing it to screen when results is recieved. Output files will be named by default as: Scriptname + Agument + "_at_" + date ".txt"
 
-Example:
-=======
+Example output:
+==============
 ```
 $./justrun-standalone aaa bbb ccc ddd eee ffffff ggg ssss 000 2222
 $tree
@@ -65,14 +64,14 @@ TODO
 TODO: add exit code support
 
 
-Using with a library
-====================
+Using with a library justrun-lib
+================================
 
 Files
-======
+=====
 
-  * justrun-lib 
-  * justrun-with-lib
+  * justrun-lib - Library itself
+  * justrun-with-lib - Testing script
 
 Installation
 ============
