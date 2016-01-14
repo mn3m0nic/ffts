@@ -1,10 +1,11 @@
 BASH-Justrun - is a simple almost pure BASH programming script library than can 
 add parallel working into your almost any working script.
-And main difference against other solution is:
+
+Differences between others solutions are:
 
   * It's simple to read and understand (If you know BASH of course :) )
   * There is no need to install any other binaries like GNU parallel or make;
-  * It use buildin shell job control to start new process and watch them work;
+  * It use [buildin shell job control](http://www.tldp.org/LDP/abs/html/x9644.html) to start new processes in background and watch them work;
   * Library and your code can be simply combinded in standalone one solid script file or it can be used as separated parts (Library and YOUR code independed);
   * It can control how much processed running in same time using local CONC (concurrent) varilable; 
 
