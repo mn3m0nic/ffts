@@ -20,7 +20,7 @@ Authors: Nick Void https://github.com/mn3m0nic in 2015-2016.
 Standalone version
 ==================
 
-  * justrun-standalone
+  * (justrun-standalone)[https://github.com/mn3m0nic/ffts/blob/master/shell/bash-justrun/examples/example2-justrun-standalone.sh]
 
 Description standalone version:
 ============
@@ -74,8 +74,8 @@ Using with a library justrun-lib
 Files
 =====
 
-  * justrun-lib - Library itself
-  * justrun-with-lib - Testing script
+  * [justrun-lib](https://github.com/mn3m0nic/ffts/blob/master/shell/bash-justrun/justrun-lib) <- Library itself
+  * [justrun-with-lib](https://github.com/mn3m0nic/ffts/blob/master/shell/bash-justrun/examples/example1-justrun-with-random-sleep.sh) <- Testing script 1 with dummy random generated sleeps
 
 Installation
 ============
