@@ -4,6 +4,7 @@ CONC=$(cat /proc/cpuinfo | grep process | wc -l)
 FORKKEY=FORKBEGIN
 DEBUG=0
 SHOW=1
+TOTALARGS=$#
 echod()
 {
 	if [ "$DEBUG" == "1" ]; then 
@@ -26,6 +27,7 @@ show()
 			grep -re ".*" out/ | sed -e 's|:|\t|'
 		fi
 		echo "Jobs running: $JCOUNT "
+		echo "In queue:     $# from $TOTALARGS"
 	fi
 }
 run_forks()
@@ -49,8 +51,8 @@ run_forks()
 			fi
 		fi
 		J=$(jobs -r)
-		JCOUNT=$(echo -e "$J" | wc -l)
-		show
+		JCOUNT=$(echo -e "$J" | sed -e '/^$/d'| wc -l)
+		show "$@"
 		if [ -z "$J" ] && [ -z "$1" ]; then
 			Q=1
 		fi
