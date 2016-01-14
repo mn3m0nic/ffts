@@ -54,9 +54,6 @@ show()
 	        #tput sc
 	        tput cup 0 0
 	        echo "┌────────────────────────────────────────────────────────────┐"
-		if [ "$DEBUG" == "1" ]; then
-			grep -re ".*" out/ | sed -e 's|:|\t|'
-		fi
                 let PERC=(JCOUNT+$#)*100/TOTALARGS
                 let PERC=100-PERC
 		ARGC=$#
@@ -66,6 +63,10 @@ show()
 		#echo -n "│"; showprline $PERC;	echo "│"
 		echo "└────────────────────────────────────────────────────────────┘"
 		#tput rc
+                if [ "$DEBUG" == "1" ]; then
+                        grep -re ".*" out/ | sed -e 's|:|\t|'
+                fi
+
 	fi
 }
 run_forks()
