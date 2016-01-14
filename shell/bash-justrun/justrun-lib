@@ -5,6 +5,7 @@ FORKKEY=FORKBEGIN
 DEBUG=0
 SHOW=1
 TOTALARGS=$#
+CLEAROUT=1
 echod()
 {
 	if [ "$DEBUG" == "1" ]; then 
@@ -13,23 +14,58 @@ echod()
 }
 check()
 {
+	if [ "$TOTALARGS" -eq "0" ]; then
+		echo "Requred parameter is missing."
+		exit
+	fi
+	if [ "$CLEAROUT" -eq "1" ]; then
+		if [ -d "$OUT" ]; then
+			rm -rf $OUT
+		fi
+	fi
 	if [ ! -d "$OUT" ]; then
 		mkdir -p $OUT
 	fi
 	MAX=$#
 	echod "Setting new MAX=$MAX"
 }
+showprline()
+{
+	c1=$(echo "$1" | grep -oP "[0-9]*")
+	[[ c1 -gt 100 ]] && c1=100;
+	let c1=c1/2; let c2=50-c1
+	printf "%3d %% [" $1
+	for (( i=$c1; i>0; i-- )); do 
+		echo -n "█"
+	done
+	for (( i=$c2; i>0; i-- )); do
+		echo -n "░"
+	done
+	echo -n "]"
+}
 show()
 {
 	if [ "$SHOW" == 1 ]; then
-		clear
+		let cleard=cleard+1
+		if [ $cleard -gt 100 ]; then
+			clear
+			let cleard=0
+		fi
+	        #tput sc
+	        tput cup 0 0
+	        echo "┌────────────────────────────────────────────────────────────┐"
 		if [ "$DEBUG" == "1" ]; then
 			grep -re ".*" out/ | sed -e 's|:|\t|'
 		fi
-		echo "Jobs running: $JCOUNT "
-		let PERC=(JCOUNT+$#)*100/TOTALARGS
-		let PERC=100-PERC
-		echo "In queue:     $# from $TOTALARGS ($PERC %)" 
+                let PERC=(JCOUNT+$#)*100/TOTALARGS
+                let PERC=100-PERC
+		ARGC=$#
+		printf "│ Jobs running: %-10.10s │ In queue: %-10.10s %10s │\n" $JCOUNT $ARGC " "
+		#echo "│ Jobs running: $JCOUNT_S | In queue: $ARGC_S from $TOTALARGS_S │"
+		printf "│ %03d %c %s │\n" $(showprline $PERC)
+		#echo -n "│"; showprline $PERC;	echo "│"
+		echo "└────────────────────────────────────────────────────────────┘"
+		#tput rc
 	fi
 }
 run_forks()
@@ -68,7 +104,10 @@ main()
 		shift
 		fork_body "$@"
 	else
+		tput civis
+		clear
 		check "$@"
 		run_forks "$@"
+		tput cnorm
 	fi
 }
