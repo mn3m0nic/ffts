@@ -1,11 +1,17 @@
 #!/bin/bash
-OUT=out
-CONC=$(cat /proc/cpuinfo | grep process | wc -l)
+# ----------------------------------------------------------------------------+
+# JustRun shell library on BASH shell                                         |
+# https://github.com/mn3m0nic/ffts/blob/master/shell/bash-justrun/justrun-lib |
+# v0.01 (c) Nick Void under GPL v2 license                                    |
+# ----------------------------------------------------------------------------+
+[ -z "$OUT" ] && OUT=out
+[ -z "$CONC" ] && CONC=$(cat /proc/cpuinfo | grep process | wc -l)
+[ -z "$DEBUG" ] && DEBUG=0
+[ -z "$SHOW" ] && SHOW=1
+[ -z "$CLEAROUT" ] && CLEAROUT=1
 FORKKEY=FORKBEGIN
-DEBUG=0
-SHOW=1
 TOTALARGS=$#
-CLEAROUT=1
+#
 echod()
 {
 	if [ "$DEBUG" == "1" ]; then 
@@ -51,11 +57,11 @@ show()
 			clear
 			let cleard=0
 		fi
-	        #tput sc
-	        tput cup 0 0
-	        echo "┌────────────────────────────────────────────────────────────┐"
-                let PERC=(JCOUNT+$#)*100/TOTALARGS
-                let PERC=100-PERC
+		#tput sc
+		tput cup 0 0
+		echo "┌────────────────────────────────────────────────────────────┐"
+		let PERC=(JCOUNT+$#)*100/TOTALARGS
+		let PERC=100-PERC
 		ARGC=$#
 		printf "│ Jobs running: %-10.10s │ In queue: %-10.10s %10s │\n" $JCOUNT $ARGC " "
 		#echo "│ Jobs running: $JCOUNT_S | In queue: $ARGC_S from $TOTALARGS_S │"
@@ -63,10 +69,9 @@ show()
 		#echo -n "│"; showprline $PERC;	echo "│"
 		echo "└────────────────────────────────────────────────────────────┘"
 		#tput rc
-                if [ "$DEBUG" == "1" ]; then
-                        grep -re ".*" out/ | sed -e 's|:|\t|'
-                fi
-
+		if [ "$DEBUG" == "1" ]; then
+			grep -re ".*" out/ | sed -e 's|:|\t|'
+		fi
 	fi
 }
 run_forks()
