@@ -2,7 +2,8 @@
 # ----------------------------------------------------------------------------+
 # JustRun shell library on BASH shell                                         |
 # https://github.com/mn3m0nic/ffts/blob/master/shell/bash-justrun/justrun-lib |
-# v0.01 (c) Nick Void under GPL v2 license                                    |
+# v0.01 (c) Nick Void under GPL v2 license 2016                               |
+# please check last version befor use it                                      |
 # ----------------------------------------------------------------------------+
 [ -z "$OUT" ] && OUT=out
 [ -z "$CONC" ] && CONC=$(cat /proc/cpuinfo | grep process | wc -l)
@@ -10,13 +11,22 @@
 [ -z "$SHOW" ] && SHOW=1
 [ -z "$CLEAROUT" ] && CLEAROUT=1
 FORKKEY=FORKBEGIN
+LOGFILE=.justrun.log
+LOG=1
 TOTALARGS=$#
 #
 echod()
 {
 	if [ "$DEBUG" == "1" ]; then 
 		echo "$@" >&2
+		[ "$LOG" == "1" ] && echo "$@" >> $LOGFILE
 	fi
+}
+echol()
+{
+        if [ "$LOG" == "1" ]; then
+                echo "$@" >> $LOGFILE
+        fi
 }
 check()
 {
@@ -69,8 +79,9 @@ show()
 		#echo -n "│"; showprline $PERC;	echo "│"
 		echo "└────────────────────────────────────────────────────────────┘"
 		#tput rc
+		grep -re ".*" $OUT/ | sed -e 's|:|\t|' | tail -n 25
 		if [ "$DEBUG" == "1" ]; then
-			grep -re ".*" out/ | sed -e 's|:|\t|'
+			grep -re ".*" $OUT/ | sed -e 's|:|\t|' | tail -n 25
 		fi
 	fi
 }
@@ -80,6 +91,7 @@ run_forks()
 	let CPID=0
 	Q=0
 	while [ "$Q" -ne "1" ]; do
+		#echol "JCOUNT=$JCOUNT MAX=$MAX CONC=$CONC"
 		if [ "$JCOUNT" -lt "$CONC" ]; then
 			let CPID=CPID+1
 			if [ "$JCOUNT" -lt "$MAX" ]; then
@@ -90,7 +102,9 @@ run_forks()
 					shift
 					# Running process
 					DATE=$(date +"%Y%m%d%H%M%S")
-					bash -c "$0 $FORKKEY $PARAMS" > $OUT"/"$0"_"$PARAMS"_at_"$DATE".txt" &
+					echol "starting new fork at $DATE with arguments $PARAMS"
+					echol "OUT=$OUT $0  $PARAMS  $DATE"
+					bash -c "$0 $FORKKEY $PARAMS" > $OUT"/"$PARAMS"_at_"$DATE".txt" 2> $OUT"/"$PARAMS"_at_"$DATE".err"  &
 				fi
 			fi
 		fi
@@ -102,7 +116,7 @@ run_forks()
 		fi
 		sleep .01
 	done
-	echo "All complete."
+	echod "All complete at $(date)."
 }
 main()
 {
