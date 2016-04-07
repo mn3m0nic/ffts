@@ -161,9 +161,8 @@ Graphical 3D editing software
 * [Blender](http://www.blender.org/)
 
 
-Automated administrative engine
-===============================
-
+Automated configuration deployment frameworks
+=============================================
 * [Puppet](https://puppetlabs.com/)
 * [Chef](https://www.chef.io/)
 * [Ansible](http://www.ansible.com/)
