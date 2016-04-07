@@ -40,5 +40,6 @@ BUGS
 Wanted
 ======
 * There are no CPU termperature hardware shutdown limits present.
+Found [this](https://github.com/mn3m0nic/ffts/blob/master/coreboot/thinkpad/x201/bin/cpu-limit.sh) workaround which can decrease your CPU frequency to limit potencial CPU overheat and also there is [ThinkFan](http://thinkfan.sourceforge.net/) project that can change FAN speed to "full-speed" one some temperature values, but first soulution is more reliable because ThinkFan has delay and also full-speed fan is noisy. :)
 
 
