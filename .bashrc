@@ -1,22 +1,13 @@
 ### Git 
-### http://habrahabr.ru/post/28268/
-alias gst='git-status'
-alias ga='git-add'
-alias gc='git-commit -m'
+alias gst='git status'
+alias ga='git add '
+alias gc='git commit -m'
 alias gp='git pull && git push'
 alias gull='git pull'
 alias gush='git push'
-alias gb='git-branch'
-alias gco='git-checkout'
-alias gd='git-diff'
-### Workflow
-#1) Что-то пописали, прогнали тесты
-#2) $ gst — увидели, какие файлы новые, какие обновленные.
-#3) $ ga a b c — добавили новые и обновленные файлы в индекс.
-#4) $ gc 'something is done' — записали коммит в репозиторий
-#5) Снова что-то написали, снова закоммитили.
-#6) $ gp — слили чужие изменения, залили свои изменения. Если вдруг возник конфликт, вам об этом напишут, будете мерджить.
-#grep ^flags /proc/cpuinfo|grep -qs sse2 && echo OK || echo SSE_not_exist
+alias gb='git branch'
+alias gco='git checkout'
+alias gd='git diff HEAD'
 ###  Directory navigation
 function md ()
 {
@@ -74,12 +65,27 @@ function remark
     ln -s $(pwd) $MARKPATH/$1
   fi
 }
+# Copy using cp_p with progress-bar 
+cp_p()
+{
+   strace -q -ewrite cp -- "${1}" "${2}" 2>&1 \
+      | awk '{
+        count += $NF
+            if (count % 10 == 0) {
+               percent = count / total_size * 100
+               printf "%3d%% [", percent
+               for (i=0;i<=percent;i++)
+                  printf "="
+               printf ">"
+               for (i=percent;i<100;i++)
+                  printf " "
+               printf "]\r"
+            }
+         }
+         END { print "" }' total_size=$(stat -c '%s' "${1}") count=0
+}
 complete -o default -o nospace -F _jump jump
-# colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-### lsblk
 alias lsblk-full="sudo lsblk -o NAME,MAJ:MIN,RM,SIZE,TYPE,FSTYPE,MOUNTPOINT,UUID"
-### editor
 export EDITOR=vim
-### screencasting
 alias record_scren_10s="byzanz-record -v -x 2 -y 1138 -w 1276 -h 760 -d 10 vid/private/$(date +"%Y%m%d_%H%M%S").gif"
