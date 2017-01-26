@@ -55,8 +55,8 @@ Hardware / Mobile phones
 Free BIOS firmware
 ==================
 * [CoreBoot](https://github.com/mn3m0nic/ffts/blob/master/coreboot.md)
-* [LibreBoot](http://www.libreboot.org/) (free from blobs Coreboot fork)
-* [SeaBIOS](http://www.seabios.org/SeaBIOS) (used as payload in Coreboot or in QEMU)
+* [LibreBoot](http://www.libreboot.org/) (free from proprietary blobs fork of Coreboot. not GNU)
+* [SeaBIOS](http://www.seabios.org/SeaBIOS) 
 * [TianoCore](http://www.tianocore.org/) (UEFI)
 * [OpenBIOS](http://www.openfirmware.info/Welcome_to_OpenBIOS)
 
@@ -114,6 +114,8 @@ Browsers
 
 Instant messaging clients (Replace Skype, Link, Vkontakte and other non-free IM)
 ================================================================================
+* [Ring](https://ring.cx/en)
+* [Signal](https://github.com/WhisperSystems/Signal-Desktop) Mobile + Chromium plugin only
 * [Ekiga](http://www.ekiga.org/)
 * [Twinkle](http://mfnboer.home.xs4all.nl/twinkle/index.html)
 * [Coccinella](http://thecoccinella.org/)
