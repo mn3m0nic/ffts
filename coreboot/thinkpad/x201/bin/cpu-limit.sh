@@ -31,7 +31,9 @@
 # This script goes without any waranty on "AS IS" terms.
 #
 # 
-FREQ=1866000
+#FREQ=1866000
+FREQ=1200000
 for cpu in 0 1 2 3; do
 	echo $FREQ | sudo tee /sys/devices/system/cpu/cpu$cpu/cpufreq/scaling_max_freq > /dev/null
 done
+

@@ -3,7 +3,7 @@
 # JustRun shell library on BASH shell                                         |
 # https://github.com/mn3m0nic/ffts/blob/master/shell/bash-justrun/justrun-lib |
 # v0.01 (c) Nick Void under GPL v2 license 2016                               |
-# please check last version befor use it                                      |
+# please check last version before use it                                     |
 # ----------------------------------------------------------------------------+
 [ -z "$OUT" ] && OUT=out
 [ -z "$CONC" ] && CONC=$(cat /proc/cpuinfo | grep process | wc -l)
@@ -79,7 +79,11 @@ show()
 		#echo -n "│"; showprline $PERC;	echo "│"
 		echo "└────────────────────────────────────────────────────────────┘"
 		#tput rc
-		grep -re ".*" $OUT/ | sed -e 's|:|\t|' | tail -n 25
+		F=$(find $OUT/ -type f -name "*.txt" -size +0 | wc -l)
+		FE=$(find $OUT/ -type f -name "*.err" -size +0 | wc -l)
+		printf "Processed with data returned:  %-10.10d\n" $F
+		printf "Processed with error returned: %-10.10d\n" $FE
+		#grep -hre ".*" $OUT/ | sed -e 's|:|\t|' | tail -n 30
 		if [ "$DEBUG" == "1" ]; then
 			grep -re ".*" $OUT/ | sed -e 's|:|\t|' | tail -n 25
 		fi
