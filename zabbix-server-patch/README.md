@@ -10,9 +10,8 @@ Zabbix server new variables
 
 
 | Configuration Variable      | Description   | Defailt value  |
-| --------------------------- |:-------------:| --------------:|
-| HistoryAndTrendsDeleteBeforeSleep |Count of records which must be deleted before housekeeper will go to sleep
-This value related only with cleanup function of History and Trends (as most heavy functions) | 1000000 |
-| HistoryAndTrendsSleepBetweenDeletes | Seconds for sleep before deletes. It's just time which thread of housekeeper halt execution and wait when database perform previous queries. Must be less than MySQL connection timeout. | 10 |
-| HistoryDeleteLimit  | SQL LIMIT for every delete - additional limit which can minimize impact of cleaning "heavy" items | 1000 |
+| --------------------------- |---------------|:--------------:|
+| HistoryAndTrendsDeleteBeforeSleep |Count of records which must be deleted before housekeeper will go to sleep. This value related only with cleanup function of History and Trends (as most heavy functions) | 1000000 (records) |
+| HistoryAndTrendsSleepBetweenDeletes | Seconds for sleep before deletes. It's just time which thread of housekeeper halt execution and wait when database perform previous queries. Must be less than MySQL connection timeout. | 10 (s) |
+| HistoryDeleteLimit  | SQL LIMIT for every delete - additional limit which can minimize impact of cleaning "heavy" items | 1000 (records) |
 
