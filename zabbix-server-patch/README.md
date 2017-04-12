@@ -36,5 +36,4 @@ Comparastion
 
 ![after](https://raw.githubusercontent.com/mn3m0nic/ffts/master/zabbix-server-patch/after_HK.png "after1")
 
-![after2](https://raw.githubusercontent.com/mn3m0nic/ffts/master/zabbix-server-patch/after_HK2.png "after2")
 
