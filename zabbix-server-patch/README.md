@@ -3,7 +3,7 @@ About this patch
 
 * This patch will add 'nice' sleeps for Housekeeper for Zabbix-server 2.4.5 which will prevent freezing Zabbix server interface when housekeeper work under removing old data with millons of DELETE SQL queries.
 * Also from now you can start housekeeper by sending USR1 signal using your regular CRON.
-
+* Patch provided on "AS IS" terms without any waranties;
 
 Zabbix server new variables
 ===========================
@@ -20,20 +20,18 @@ First of all
 ============
 
 * Don't use this patch if there are any way to minimize data amount collected / processed by Zabbix server;
-* Don't use this patch if there are way to speedup your database;
+* Don't use this patch if there are a way to speedup your database;
 * Don't use this patch if you scared by patching something on live systems :-P
 
 
-Comparastion
-============
+Сomparison
+==========
 
 * Housekeeper of health man (before patch):
 
 ![before](https://raw.githubusercontent.com/mn3m0nic/ffts/master/zabbix-server-patch/before_HK.png "before")
 
-
 * Housekeeper of smoking man:
 
 ![after](https://raw.githubusercontent.com/mn3m0nic/ffts/master/zabbix-server-patch/after_HK.png "after1")
-
 
