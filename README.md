@@ -98,6 +98,7 @@ NVIDIA Drivers
 
 Browsers
 ========
+* [Qupzilla](https://www.qupzilla.com/)
 * [NetSurf](http://www.netsurf-browser.org/)
 * [Mozilla Firefox](https://www.mozilla.org)
 * [Chromium](https://www.chromium.org/)
