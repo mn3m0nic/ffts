@@ -62,9 +62,11 @@ Encryption software for general purpose
 ===================
 * [GNUPG](https://www.gnupg.org/)
 
-
+For block devices:
 
 * [LUKS](https://code.google.com/p/cryptsetup/)
+* [LibreCrypt](https://github.com/t-d-k/LibreCrypt) LUKS for Windows
+* [TrueCrypt](http://truecrypt.sourceforge.net/) - don't use it
 
 NVIDIA Drivers
 ==============
