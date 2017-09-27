@@ -113,19 +113,35 @@ Browsers
 * [Libre Office] (https://www.libreoffice.org/)
 
 
-Instant messaging clients (Replace Skype, Link, Vkontakte and other non-free IM)
+Instant messaging clients
 ================================================================================
+
+Best choise:
+
+* [Signal](https://signal.org/)  (Signal protocol)
+* [Psi-plus](http://psi-plus.com/)  + [OTR plugin](https://github.com/psi-im/plugins/blob/master/generic/otrplugin/INSTALL)
 * [Ring](https://ring.cx/en)
-* [Signal](https://github.com/WhisperSystems/Signal-Desktop) Mobile + Chromium plugin only
+
+other Jabber clients:
+
+* [CoyIM](https://coy.im/)
+* [Empathy](https://wiki.gnome.org/action/show/Apps/Empathy)
+* [Pidgin](https://www.pidgin.im/)
+* [Kopete](https://www.kde.org/applications/internet/kopete/)
+
 * [Ekiga](http://www.ekiga.org/)
 * [Twinkle](http://mfnboer.home.xs4all.nl/twinkle/index.html)
 * [Coccinella](http://thecoccinella.org/)
 * [QuteCom](http://qutecom.org/)
 * [SIP-Communicator](https://jitsi.org/) (or JITSI)
-* [Empathy](https://wiki.gnome.org/action/show/Apps/Empathy)
-* [Psi-plus](http://psi-plus.com/)
-* [Pidgin](https://www.pidgin.im/)
 * [tox](https://tox.im)
+
+* [Comparation of IM's from EFF](https://www.eff.org/secure-messaging-scorecard)
+
+* Don't use QIP, Skype, Vk and other non-free IM's
+* UPD: Don't use Telegram [1](https://www.schneier.com/blog/archives/2016/06/comparing_messa.html) [2](https://security.stackexchange.com/questions/49782/is-telegram-secure)
+
+
 
 Graphical 2D bitmap editing/drawing software
 =============================================
@@ -162,7 +178,6 @@ Document markup software with LaTeX-syntax
 Graphical 3D editing software
 =============================
 * [Blender](http://www.blender.org/)
-
 
 Automated configuration deployment frameworks
 =============================================
