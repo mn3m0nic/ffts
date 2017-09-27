@@ -71,21 +71,23 @@ NVIDIA Drivers
 * [Nouveau](https://nouveau.freedesktop.org/wiki/)
 * [BumBleBee](https://bumblebee-project.org/)
 
-Browsers
+Web browsers
 ========
-* [Qupzilla](https://www.qupzilla.com/)
-* [NetSurf](https://www.netsurf-browser.org/)
 * [Mozilla Firefox](https://www.mozilla.org)
 * [Chromium](https://www.chromium.org/)
+* [Qupzilla](https://www.qupzilla.com/)
+* [NetSurf](https://www.netsurf-browser.org/)
 * [Konqueror](https://konqueror.org/)
+* [Iridium](https://iridiumbrowser.de/)
 
 3D printer
 ==========
 * [RepRap](http://reprap.org/)
 
-(Office)Software for word processing, spreadsheets, slideshows, diagrams and drawings
-=====================================================================================
-* [Libre Office] (https://www.libreoffice.org/)
+Office software
+================
+* [Libre Office](https://www.libreoffice.org/)
+* [Emacs](https://www.gnu.org/software/emacs/)
 
 Instant messaging clients
 =====================
