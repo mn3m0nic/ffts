@@ -4,12 +4,12 @@
 
 ### Why this patch is required
 
-* Because Linux kernel function names changed and DKMS vboxdrv rebuild step, which compile new kernel module will permanentny fail;
+* Because some of Linux kernel function names changed and DKMS vboxdrv rebuild step, which compile new kernel module for VirtualBox, will permanentny fail with compile errors;
 
 ### What you will see without patch
 
-* VirtualBox will fail to start as there are no kernel module
-* New kernel module can't be created due to error on compile time
+* VirtualBox will fail to start as there are no kernel module;
+* VirtualBox kernel module will fail to compile;
 
 ```
 STDERR: The provider 'virtualbox' that was requested to back the machine
@@ -22,7 +22,7 @@ instructions on how to fix this error.
 `
 ```
 
-Check all vboxdrv modules
+### Check all vboxdrv modules
 
 ```
 find /lib/modules/* -name 'vboxdrv*'
@@ -37,7 +37,6 @@ find /lib/modules/* -name 'vboxdrv*'
 
 * https://www.virtualbox.org/pipermail/vbox-dev/2017-December/014885.html
 * http://www.virtualbox.org/pipermail/vbox-dev/attachments/20171202/8606bf99/attachment.bin
-
 
 ### Appling patch
 
